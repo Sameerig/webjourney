@@ -14,7 +14,7 @@ app.post("/",(req,res)=>{
     const query=req.body.cityName;
     // console.log(req.body.cityName)
     const units="metric";
-    const id ="e90fba0650d9618731d2a97f0dcb43fa"
+    const id =""
     https.get("https://api.openweathermap.org/data/2.5/weather?q="+query+"&appid="+id+"&units="+units,(response)=>{
         console.log(response.statusCode)
         response.on("data",function(data){
