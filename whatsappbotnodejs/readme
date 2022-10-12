@@ -1,0 +1,15 @@
+Is this app built with NodeJS?
+Yes, it's built with NodeJS. Please see the Technologies section for more info.
+
+What boilerplate did you use?
+None. The idea was to get a better understanding of how things work together, But I do take a cue from other projects.
+
+What npm modules did you use?
+
+express for API Server
+
+body-parser Node.js body parser middleware
+
+fs To read session.json
+
+whatsapp-web.js A WhatsApp API client that connects through the WhatsApp Web browser app
